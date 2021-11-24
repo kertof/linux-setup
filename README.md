@@ -153,3 +153,20 @@ export CHROME_BIN=/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrom
 
 ```
 
+## Add default packages for NVM to `$NVM_DIR/default-packages`
+
+```
+@nestjs/cli
+@vue/cli
+cloc
+firebase-tools
+npm-check-updates
+vercel
+yarn
+@cloudflare/wrangler
+```
+
+## Instal Node LTS
+```sh
+nvm install --lts
+```
