@@ -1,5 +1,12 @@
 # linux-setup
 
+## Windows Setup
+Install WSL from MS Store `https://aka.ms/wslstorepage`.
+
+Install Nerd Font `https://www.nerdfonts.com/font-downloads`
+
+Set Nerd Font as font in VS Code and Terminal App.
+
 ## Base
 ```sh
 sudo apt update
@@ -162,8 +169,6 @@ cloc
 firebase-tools
 npm-check-updates
 vercel
-yarn
-@cloudflare/wrangler
 ```
 
 ## Instal Node LTS
