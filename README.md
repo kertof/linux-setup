@@ -1,9 +1,9 @@
 # linux-setup
 
 ## Windows Setup
-Install WSL from MS Store `https://aka.ms/wslstorepage`.
+Install WSL from MS Store https://aka.ms/wslstorepage.
 
-Install Nerd Font `https://www.nerdfonts.com/font-downloads`
+Install Nerd Font https://www.nerdfonts.com/font-downloads
 
 Set Nerd Font as font in VS Code and Terminal App.
 
