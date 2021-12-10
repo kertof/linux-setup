@@ -7,6 +7,9 @@ Install Nerd Font https://www.nerdfonts.com/font-downloads
 
 Set Nerd Font as font in VS Code and Terminal App.
 
+
+After each section, restart terminal session.
+
 ## Base
 ```sh
 sudo apt update
@@ -14,10 +17,12 @@ sudo apt upgrade -y
 sudo apt install make wget curl build-essential openssl libssl-dev unzip git -y
 
 git config --global user.name "Christophe Querton"
-git config --global user.email "kertof@gmail.com"
+git config --global user.email "*******@gmail.com"
 ```
 
 ## Install zsh
+
+Install ZSH, and ignore prompt to set up zsh after.
 ```sh
 sudo apt install zsh -y
 chsh -s $(which zsh)
@@ -45,6 +50,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 ```
 
 ## .zshrc
+Overwrite ~/.zshrc file.
 
 ```
 # If you come from bash you might have to change your $PATH.
@@ -161,6 +167,8 @@ export CHROME_BIN=/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrom
 ```
 
 ## Add default packages for NVM to `$NVM_DIR/default-packages`
+
+`code $NVM_DIR/default-packages`
 
 ```
 @nestjs/cli
