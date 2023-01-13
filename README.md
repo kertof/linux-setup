@@ -171,6 +171,7 @@ export CHROME_BIN=/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrom
 `code $NVM_DIR/default-packages`
 
 ```
+@angular/cli
 @nestjs/cli
 @vue/cli
 cloc
