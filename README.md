@@ -190,3 +190,9 @@ vercel
 ```sh
 nvm install --lts
 ```
+
+## Copy SSH keys and adapt permissions
+```sh
+chmod 600 ~/.ssh/id_rsa 
+chmod 600 ~/.ssh/id_rsa.pub
+```
