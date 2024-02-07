@@ -14,7 +14,7 @@ After each section, restart terminal session.
 ```sh
 sudo apt update
 sudo apt upgrade -y
-sudo apt install make wget curl build-essential openssl libssl-dev unzip git -y
+sudo apt install make wget curl build-essential openssl libssl-dev unzip git zsh -y
 
 git config --global user.name "Christophe Querton"
 git config --global user.email "*******@gmail.com"
@@ -24,7 +24,6 @@ git config --global user.email "*******@gmail.com"
 
 Install ZSH, and ignore prompt to set up zsh after.
 ```sh
-sudo apt install zsh -y
 chsh -s $(which zsh)
 ```
 
@@ -179,11 +178,9 @@ source <(ng completion script)
 ```
 @angular/cli
 @nestjs/cli
-@vue/cli
 cloc
 firebase-tools
 npm-check-updates
-vercel
 ```
 
 ## Instal Node LTS
