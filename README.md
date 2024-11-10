@@ -45,11 +45,11 @@ sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
 ## Install NVM
 ```sh
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 ## .zshrc
-Overwrite ~/.zshrc file.
+`code ~/.zshrc`
 
 ```
 # If you come from bash you might have to change your $PATH.
